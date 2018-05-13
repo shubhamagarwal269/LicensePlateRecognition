@@ -36,10 +36,10 @@ def no_num_at_beg(plate_number):
     return plate_number
 
 
-if((os.path.isdir('/char_result'))==False):
+if((os.path.isdir('char_result'))==False):
     os.mkdir('char_result')
 
-if((os.path.isdir('/plate_result'))==False):
+if((os.path.isdir('plate_result'))==False):
     os.mkdir('plate_result')
 
 
